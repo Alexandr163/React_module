@@ -9,15 +9,7 @@ const Counter = (props) => {
     let classes = "badge m-2 ";  
     classes += value === 0 ? "text-bg-secondary": "text-bg-primary";
     return classes;
-    };
-    // const handleIncrement = () => {
-    //     console.log("handleIncrement");        
-    // //    setValue((prevState) => prevState + 1);       
-    // };
-    // const handleDecriment = () => {
-    //     console.log("handleDecriment")
-    //     // setValue((prevState) => prevState - 1);
-    // };    
+    };       
     return (
         <div>
             <span>{props.name}</span>                 
